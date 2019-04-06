@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+* {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: #eee;
+    height: auto;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.4), -30px 0px 40px rgba(0,0,0,0.4);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+#landing {
+    background: #5A2058;
+    color: white;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw; /* left side */
+    height: 50vh;
+    justify-content: center; /*Moves content horizontally*/
+    align-items: center; /*Moves content vertically*/
+}
+
+#landing-text h2 {
+    color: #a1a1a1;
+}
+
+#landing-image {
+    background: url('https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2015%2F12%2F213715-Hiiragi_Shinoa-scythe-vectors-vector_art-simple_background-anime_girls.jpg&f=1');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw; /* right side */
+    margin: 0;
+}
+
+#landing a {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    border: 1px #ccc dotted;
+    border-radius: 12px;
+    margin: 1.5rem 0 0;
+    text-decoration: none;
+    color: #fff;
+    transition: background 500ms;
+}
+
+#landing a:hover {
+    background: #b182bd;
+}
+
+#header {
+    padding: 1rem;
+    text-align: center;
+    background: #333;
+    color: white;
+}
+
+#header h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.show h1, h2 {
+    text-align: center;
+}
+.show p{
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer {
+    max-width: 800px;
+    background: #5A2058;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+footer h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding: 1rem;
+}
+
+/*Screen sizes 500px and up will do below*/
+@media(min-width: 500px) {
+    
+}
+
+@media(min-width: 700px) {
+    #landing a {
+        padding: 1rem 2rem;
+    }
+}
