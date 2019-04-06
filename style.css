@@ -93,7 +93,9 @@ img {
 .show h1, h2 {
     text-align: center;
 }
+
 .show p{
+    line-spacing: 1.5rem;    
     padding: 0.8rem;
     text-align: center;
 }
